@@ -79,7 +79,7 @@ function Login() {
       <div className=" mx-auto ml-auto mt-auto mb-auto ">
         <div className="flex  mx-auto  flex-col gap-4 h-1/2">
           <h1 className="text-center font-bold text-3xl m-5 text-green-600 border-red-500">
-            Welcome to GreenIQ
+            Welcome to LearnSphere
           </h1>
       
         

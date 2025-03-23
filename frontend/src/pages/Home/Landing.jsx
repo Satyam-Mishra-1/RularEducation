@@ -10,7 +10,7 @@ import primaryImage from "../../assets/primary-background.png";
 import Demo from "../../assets/demo.jpg";
 import Chatbot from "../../assets/chatbot.png";
 import Banner from "../../assets/banner.jpg";
-import SIH from "../../assets/sih.jpg";
+
 import Techno from "../../assets/techno.png";
 import Physics from "../../assets/physics.jpg";
 import Chemistry from "../../assets/chemistry.jpg";
@@ -203,7 +203,7 @@ const Landing = () => {
         <nav className="bg-white text-primary  lg:flex hidden flex-row justify-between px-5 py-1  rounded-2xl shadow-md items-center text-para  z-10 border-nav">
           <div className="mx-2 w-[200px]">
             <Link to="" className="text-5xl font-right ">
-              Green<span className="text-theme">IQ</span>
+            Learn<span className="text-theme">Sphere</span>
             </Link>
           </div>
 
@@ -281,7 +281,7 @@ const Landing = () => {
         <nav className="text-primary flex lg:hidden flex-row justify-between px-5 py-2 my-4 rounded-lg shadow-md items-center text-para   z-10  border-nav bg-white space-x-5">
           <div className="mx-2 w-[100px]">
             <Link to="/" className="text-4xl font-right ">
-              Green<span className="text-theme">IQ</span>
+              Learn<span className="text-theme">Sphere</span>
             </Link>
           </div>
           <div className="mx-2  flex-row-between">
@@ -468,7 +468,7 @@ const Landing = () => {
           {arr.map((obj, id) => (
             <div
               className=" w-[300px] h-[200px] rounded-2xl shadow-md cursor-pointer group m-5 bg-contain bg-no-repeat bg-center"
-              style={{ backgroundImage: `url(${id % 2 == 0 ? Techno : SIH})` }}
+              style={{ backgroundImage: `url(${id % 2 == 0 })` }}
             >
               {/* <div className="group-hover:opacity-100 opacity-0 bg-primary text-center flex-col-center w-full h-full rounded-2xl">
                 <h1 className="text-theme">English</h1>
@@ -492,7 +492,7 @@ const Landing = () => {
         <div className="flex flex-row flex-wrap space-x-8 justify-between items-center px-[7vw] ">
           <div className="text-left leading-10 flex flex-col my-5">
             <Link to="" className="text-5xl font-right ">
-              Green<span className="text-theme">IQ</span>
+              Learn<span className="text-theme">Sphere</span>
             </Link>
           </div>
           <div className="text-left leading-10 flex flex-col my-5 ">
@@ -524,9 +524,8 @@ const Landing = () => {
               </Link>
             ))} */}
           </div>
-          <p>© GreenIQ 2023 | All rights reserved</p>
           <p className=" text-center font-bold mx-auto p-10">
-            Maintained By Ankush Banerjee ❤️
+            Maintained By LearnSphere Team ❤️
           </p>
         </div>
       </footer>

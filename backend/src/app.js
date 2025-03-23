@@ -42,7 +42,7 @@ async function sendMessage(senderId, receiverId, message) {
   return chatMessage;
 }
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://green-iq-deployed.vercel.app"],
+  origin: ["http://localhost:3000"],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };

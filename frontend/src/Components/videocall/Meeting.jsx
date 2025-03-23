@@ -25,7 +25,7 @@ export function Meet() {
   const onMeetingLeave = () => {
     setMeetingId(null);
   };
-const TOKEN= token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiJmNTdjNjAzMy1mMTZkLTQ2NzYtODdiZS01NmJhNWEzYjYxMTQiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTcyNzM3NzMyMiwiZXhwIjoxNzI3NDYzNzIyfQ.QNCN9F4x0FZ5h89Ml0MCrf_b3J1WsjVmaEn423Goa3s"
+const TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiJmNTdjNjAzMy1mMTZkLTQ2NzYtODdiZS01NmJhNWEzYjYxMTQiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTcyNzM3NzMyMiwiZXhwIjoxNzI3NDYzNzIyfQ.QNCN9F4x0FZ5h89Ml0MCrf_b3J1WsjVmaEn423Goa3s"
   return authToken && meetingId ? (
     <MeetingProvider
       config={{
